@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "9",
 
   // Services
   services: [
@@ -79,9 +79,15 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Jason Green", rating: 5, text: "Martin and his team put in a new tarmac drive for me. They did a great job at a great price. It was professionally done and the guys were really friendly and kept me involved all the way through the process. The workmanship was top quality …  ", date: "4 years ago" },
+    { name: "Roshan Thapa Magar", rating: 5, text: "First of all, Martin from Stone Driveways and Patios explained to me how the driveway would look like when it is done and he even added an extra service which I was not aware of. For example, he added step on the door ways which is easy to …  ", date: "5 years ago" },
+    { name: "David Bushell", rating: 5, text: "STONE Driveways and Patios have just finished our patio and garden paths. The work was done professionally in a timely fashion by a skilled, hard working, polite and friendly team. We are absolutely delighted with the job that followed our …  ", date: "5 years ago" },
+    { name: "Fionnuala Stanley", rating: 5, text: "Martin and his team have done an amazing job putting in a driveway as well as a garden patio area which allows wheelchair access and safety. No ramps were necessary as the paving was laid in such a manner that they were not needed anymore. …  ", date: "4 years ago" },
+    { name: "Don Bone", rating: 5, text: "We have just had a new sandstone patio installed to the rear of our house by Stone Driveways & Patios. It took slightly longer than expected but the end result was worth the wait. Very friendly and easy going team all working to ensure we got the end", date: "4 years ago" },
+    { name: "Michael Smith", rating: 5, text: "I used Stone Driveways to provide a Resin driveway. They were very professional and reliable throughout the project and their attention to detail and standard of work was outstanding. Highly recommended.  ", date: "5 years ago" },
+    { name: "Pat Daniell", rating: 5, text: "From day 1 Martin and team came to me I need a new driveway installed I had health issues they looked after me so much martin and team went above and beyond so skilled and professional at every aspect the end product was fantastic I recommend them hi", date: "5 years ago" },
+    { name: "Alan THORNTON", rating: 5, text: "Martin and his friendly team improved the appearance of our drive and did an excellent jobPositive…  ", date: "4 years ago" },
+    { name: "Mary Harris", rating: 5, text: "Perfect team .100% work. Would recommend  them to anyone.PositiveRespo…  ", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
